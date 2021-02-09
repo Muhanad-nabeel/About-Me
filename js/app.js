@@ -8,6 +8,7 @@ let country = prompt('Are you from amman? y/n');
 let visit = prompt('Have you ever visited us before? Y/N');
 let car = prompt('Do you have a car');
 
+
 if (age.toLowerCase === 'y') {
   console.log('you can join us ');
   alert('Hurry up ');
@@ -75,3 +76,30 @@ default:
   alert('WELCOME To ASAC');
   break;
 }
+
+
+let count = 5;
+let user = prompt('inter one of your Questions answered  yes ? ');
+
+let arr = [ 'age', 'uni', 'country', 'visit', 'car'];
+// console.log(arr.length);
+
+let answer = false;
+
+while (count && !answer) {
+  for (let i = 0; i < arr.length; i++) {
+    if (user === arr[i]) {
+      alert('you have a correct choices-'+arr[i]);
+      answer=true;
+      break;
+    }
+    count -= 1;
+    user = prompt('try again you have a _ ' + count + ' _chance');
+    break;
+  }
+  if (answer) {
+    break;
+  }
+}
+
+
