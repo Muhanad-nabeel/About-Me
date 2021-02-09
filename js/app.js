@@ -46,33 +46,32 @@ if (country === 'y') {
 
 switch (visit.toUpperCase) {
 
-  case 'Y':
-    console.log('You have a 25% discount in next time');
-    alert('You have a 25% discount in next time');
-    break;
+case 'Y':
+  console.log('You have a 25% discount in next time');
+  alert('You have a 25% discount in next time');
+  break;
 
-  case 'N':
+case 'N':
 
-    console.log('You have a 10% discount in first time');
-    alert('You have a 10% discount in first time');
-    break;
-  default:
-    alert('WELCOME LTUC');
-    break;
+  console.log('You have a 10% discount in first time');
+  alert('You have a 10% discount in first time');
+  break;
+default:
+  alert('WELCOME LTUC');
+  break;
 }
 switch (car.toUpperCase) {
 
-  case 'Y':
-    console.log('You can come each time');
-    alert('You can come each time');
-    break;
+case 'Y':
+  console.log('You can come each time');
+  alert('You can come each time');
+  break;
 
-  case 'N':
-
-    console.log('you can come by buses');
-    alert('you can come by buses');
-    break;
-  default:
-    alert('WELCOME To ASAC');
-    break;
+case 'N':
+  console.log('you can come by buses');
+  alert('you can come by buses');
+  break;
+default:
+  alert('WELCOME To ASAC');
+  break;
 }
