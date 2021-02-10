@@ -103,3 +103,45 @@ while (count && !answer) {
 }
 
 
+function getAge(){
+
+  let yourAge = prompt('enter your age ?');
+  console.log('you age is - '+yourAge);
+  return (yourAge);
+}
+
+getAge(age);
+
+
+function getUniName(){
+
+  let uniName= prompt('enter your university name ?');
+  console.log('your university name is - '+uniName);
+  return (uniName);
+}
+
+getUniName(uni);
+
+function getCountry(){
+  let countryName=prompt('Enter where do you live ?');
+  console.log('your country is - '+countryName);
+}
+getCountry(country);
+
+let getVisit =function(){
+
+  let visit=prompt('when last time you visit us ?');
+  console.log('your last time - '+visit);
+
+};
+getVisit(visit);
+
+
+let getCar= function(){
+
+  let carName=prompt('what is your car name ?');
+  console.log('your car name - '+carName);
+
+};
+getCar(car);
+
