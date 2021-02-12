@@ -14,12 +14,45 @@ color: rgb(207, 19, 66);
 header p{
   color: azure;
   font-size: 30px;
-
+  font-family: 'Hammersmith One', sans-serif;
 }
+header p:hover{
+  box-shadow: 19px 10px 15px 10px black;
+  color: rgb(204, 56, 36);
+}
+header  p a{
+text-decoration: none;
+color: rgb(145, 32, 12);
+font-size: 25px;
+font-weight: bold;
+}
+header p a:hover{
+  font-size: 30px;
+transition: 1s ease-in-out;
+  color:#ffffff;
+  font-size:30px;
+font-weight: bold;
+font-family: 'Hammersmith One', sans-serif;
+}
+header nav ul{
+  list-style: none;
+}
+header nav ul li{
+  display: inline-block;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #fcfcfc;
+  padding: 15px;
+  justify-content: space-around;
+font-size: 40px;
+font-weight: bolder;
+}
+
 footer{
   text-align: center;
   color: brown;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
 }
 
